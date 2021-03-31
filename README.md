@@ -18,5 +18,7 @@ The two Arduinos communicate using the Python Socket library. A Python script mu
 Data flows when all four programs are running simultaneously.
 
 Arduino Server -> Python Server ---->Internet----> Python Client -> Arduino Client
+
 aka
+
 Gyroscope -> PC ---->Internet----> Raspberry Pi -> Articulation System
