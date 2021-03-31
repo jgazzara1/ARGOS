@@ -1,5 +1,4 @@
-# ARGOS 
-# The Articulating Robotic Gaze Operated System
+# ARGOS - Articulating Robotic Gaze Operated System
 
 Interdisciplinary Senior Design Project for Stevens Institute of Technology 2021
 Created by Carmine Freda, John Gazzara, Nicholas Gray, Ryan Palmer
@@ -22,3 +21,12 @@ Arduino Server -> Python Server ---->Internet----> Python Client -> Arduino Clie
 aka
 
 Gyroscope -> PC ---->Internet----> Raspberry Pi -> Articulation System
+
+To Operate:
+
+1. Upload Arduino server file to gyroscope Arduino
+2. Run Python server script
+3. Run Python client script
+4. Upload Arduino cilent file to articulation Arduino
+
+The Gyroscope Arduino requires a custom library to function. I have included the needed file in the Server
