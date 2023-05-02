@@ -11,7 +11,7 @@ This system functions by one Arduino connected to a PC reading Gyroscope values.
 This is known as the "server"
 
 The other Arduino is connected to a Raspberry Pi that is operating within 'ARGOS'
-This is known as the "clent"
+This is known as the "client"
 
 The two Arduinos communicate using the Python Socket library. A Python script must be running on both the client and server devices for commuication to occur. 
 Data flows when all four programs are running simultaneously.
